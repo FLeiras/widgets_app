@@ -24,4 +24,34 @@ const appMenuItems = <MenuItem>[
       subTitle: 'Un contenedor estilizado',
       link: '/cards',
       icon: Icons.credit_card),
+  MenuItem(
+      title: 'Progress Indicators',
+      subTitle: 'Generales y Controlados',
+      link: '/progress',
+      icon: Icons.refresh_rounded),
+  MenuItem(
+      title: 'SnackBar y diálogos',
+      subTitle: 'Indicadores en pantalla',
+      link: '/snackbar',
+      icon: Icons.info_outline),
+  MenuItem(
+      title: 'Contenedor animado',
+      subTitle: 'Pantalla animada',
+      link: '/animated',
+      icon: Icons.check_box_outline_blank_outlined),
+  MenuItem(
+      title: 'UI Controls + Tiles',
+      subTitle: 'Serie de controles de Flutter',
+      link: '/ui-controls',
+      icon: Icons.car_rental_outlined),
+  MenuItem(
+      title: 'Introducción a la aplicación',
+      subTitle: 'Pequeño tutorial del uso de la App',
+      link: '/tutorial',
+      icon: Icons.accessible_rounded),
+  MenuItem(
+      title: 'InfiniteScroll y Pull',
+      subTitle: 'Listas infinitas y pull to refresh',
+      link: '/infinite',
+      icon: Icons.list_alt_rounded),
 ];
