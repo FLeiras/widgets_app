@@ -5,10 +5,10 @@ class AppTutorialScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('AppTutorialScreen'),
-      ),
-    );
+    return Scaffold(
+        appBar: AppBar(
+          title: const Text('Tutorial de la App'),
+        ),
+        body: const Placeholder());
   }
 }
